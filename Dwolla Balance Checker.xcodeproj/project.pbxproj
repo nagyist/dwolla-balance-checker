@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F80A26CC17658D0600E902E2 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = F80A26B117658D0300E902E2 /* Constants.m */; };
+		F80A26CD17658D0600E902E2 /* DwollaAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = F80A26B317658D0300E902E2 /* DwollaAPI.m */; };
+		F80A26CE17658D0600E902E2 /* DwollaContact.m in Sources */ = {isa = PBXBuildFile; fileRef = F80A26B517658D0400E902E2 /* DwollaContact.m */; };
+		F80A26CF17658D0600E902E2 /* DwollaFundingSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F80A26B717658D0400E902E2 /* DwollaFundingSource.m */; };
+		F80A26D017658D0600E902E2 /* DwollaFundingSources.m in Sources */ = {isa = PBXBuildFile; fileRef = F80A26B917658D0400E902E2 /* DwollaFundingSources.m */; };
+		F80A26D117658D0600E902E2 /* DwollaTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = F80A26BB17658D0500E902E2 /* DwollaTransaction.m */; };
+		F80A26D217658D0600E902E2 /* DwollaTransactions.m in Sources */ = {isa = PBXBuildFile; fileRef = F80A26BD17658D0500E902E2 /* DwollaTransactions.m */; };
+		F80A26D317658D0600E902E2 /* DwollaTransactionStats.m in Sources */ = {isa = PBXBuildFile; fileRef = F80A26BF17658D0500E902E2 /* DwollaTransactionStats.m */; };
+		F80A26D417658D0600E902E2 /* DwollaUser.m in Sources */ = {isa = PBXBuildFile; fileRef = F80A26C117658D0500E902E2 /* DwollaUser.m */; };
+		F80A26D517658D0600E902E2 /* HttpRequestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F80A26C317658D0500E902E2 /* HttpRequestHelper.m */; };
+		F80A26D617658D0600E902E2 /* HttpRequestRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = F80A26C517658D0500E902E2 /* HttpRequestRepository.m */; };
+		F80A26D817658D0600E902E2 /* NSURLConnectionRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = F80A26C917658D0600E902E2 /* NSURLConnectionRepository.m */; };
+		F80A26D917658D0600E902E2 /* OAuthTokenRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = F80A26CB17658D0600E902E2 /* OAuthTokenRepository.m */; };
+		F80A26EA176593E400E902E2 /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = F80A26DE176593DC00E902E2 /* NSObject+SBJson.m */; };
+		F80A26EB176593E400E902E2 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F80A26DF176593DC00E902E2 /* SBJsonParser.m */; };
+		F80A26EC176593E400E902E2 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F80A26E0176593DD00E902E2 /* SBJsonStreamParser.m */; };
+		F80A26ED176593E400E902E2 /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = F80A26E1176593DE00E902E2 /* SBJsonStreamParserAccumulator.m */; };
+		F80A26EE176593E400E902E2 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F80A26E2176593DF00E902E2 /* SBJsonStreamParserAdapter.m */; };
+		F80A26EF176593E400E902E2 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = F80A26E3176593DF00E902E2 /* SBJsonStreamParserState.m */; };
+		F80A26F0176593E400E902E2 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = F80A26E4176593E000E902E2 /* SBJsonStreamWriter.m */; };
+		F80A26F1176593E400E902E2 /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = F80A26E5176593E100E902E2 /* SBJsonStreamWriterAccumulator.m */; };
+		F80A26F2176593E400E902E2 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = F80A26E6176593E100E902E2 /* SBJsonStreamWriterState.m */; };
+		F80A26F3176593E400E902E2 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = F80A26E7176593E200E902E2 /* SBJsonTokeniser.m */; };
+		F80A26F4176593E400E902E2 /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = F80A26E8176593E300E902E2 /* SBJsonUTF8Stream.m */; };
+		F80A26F5176593E400E902E2 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = F80A26E9176593E400E902E2 /* SBJsonWriter.m */; };
+		F80A26F81765980500E902E2 /* PreferencesView.m in Sources */ = {isa = PBXBuildFile; fileRef = F80A26F71765980400E902E2 /* PreferencesView.m */; };
+		F80A26FE1765A1D100E902E2 /* PreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F80A26FC1765A1D100E902E2 /* PreferencesWindow.xib */; };
+		F80A270617669DDC00E902E2 /* PreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F80A270517669DDC00E902E2 /* PreferencesViewController.m */; };
+		F80A27081766D7B400E902E2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F80A27071766D7B300E902E2 /* Security.framework */; };
+		F8E7AF42173C4B6C009C6A96 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8E7AF41173C4B6C009C6A96 /* Cocoa.framework */; };
+		F8E7AF4C173C4B6C009C6A96 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8E7AF4A173C4B6C009C6A96 /* InfoPlist.strings */; };
+		F8E7AF4E173C4B6C009C6A96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E7AF4D173C4B6C009C6A96 /* main.m */; };
+		F8E7AF55173C4B6C009C6A96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E7AF54173C4B6C009C6A96 /* AppDelegate.m */; };
+		F8E7AF58173C4B6C009C6A96 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8E7AF56173C4B6C009C6A96 /* MainMenu.xib */; };
+		F8E7AF80173DB4B6009C6A96 /* CheckBalance.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E7AF7F173DB4B6009C6A96 /* CheckBalance.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F80A26B017658D0300E902E2 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = "Dwolla Balance Checker/Dwolla/Constants.h"; sourceTree = "<group>"; };
+		F80A26B117658D0300E902E2 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Constants.m; path = "Dwolla Balance Checker/Dwolla/Constants.m"; sourceTree = "<group>"; };
+		F80A26B217658D0300E902E2 /* DwollaAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DwollaAPI.h; path = "Dwolla Balance Checker/Dwolla/DwollaAPI.h"; sourceTree = "<group>"; };
+		F80A26B317658D0300E902E2 /* DwollaAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DwollaAPI.m; path = "Dwolla Balance Checker/Dwolla/DwollaAPI.m"; sourceTree = "<group>"; };
+		F80A26B417658D0400E902E2 /* DwollaContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DwollaContact.h; path = "Dwolla Balance Checker/Dwolla/DwollaContact.h"; sourceTree = "<group>"; };
+		F80A26B517658D0400E902E2 /* DwollaContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DwollaContact.m; path = "Dwolla Balance Checker/Dwolla/DwollaContact.m"; sourceTree = "<group>"; };
+		F80A26B617658D0400E902E2 /* DwollaFundingSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DwollaFundingSource.h; path = "Dwolla Balance Checker/Dwolla/DwollaFundingSource.h"; sourceTree = "<group>"; };
+		F80A26B717658D0400E902E2 /* DwollaFundingSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DwollaFundingSource.m; path = "Dwolla Balance Checker/Dwolla/DwollaFundingSource.m"; sourceTree = "<group>"; };
+		F80A26B817658D0400E902E2 /* DwollaFundingSources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DwollaFundingSources.h; path = "Dwolla Balance Checker/Dwolla/DwollaFundingSources.h"; sourceTree = "<group>"; };
+		F80A26B917658D0400E902E2 /* DwollaFundingSources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DwollaFundingSources.m; path = "Dwolla Balance Checker/Dwolla/DwollaFundingSources.m"; sourceTree = "<group>"; };
+		F80A26BA17658D0400E902E2 /* DwollaTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DwollaTransaction.h; path = "Dwolla Balance Checker/Dwolla/DwollaTransaction.h"; sourceTree = "<group>"; };
+		F80A26BB17658D0500E902E2 /* DwollaTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DwollaTransaction.m; path = "Dwolla Balance Checker/Dwolla/DwollaTransaction.m"; sourceTree = "<group>"; };
+		F80A26BC17658D0500E902E2 /* DwollaTransactions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DwollaTransactions.h; path = "Dwolla Balance Checker/Dwolla/DwollaTransactions.h"; sourceTree = "<group>"; };
+		F80A26BD17658D0500E902E2 /* DwollaTransactions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DwollaTransactions.m; path = "Dwolla Balance Checker/Dwolla/DwollaTransactions.m"; sourceTree = "<group>"; };
+		F80A26BE17658D0500E902E2 /* DwollaTransactionStats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DwollaTransactionStats.h; path = "Dwolla Balance Checker/Dwolla/DwollaTransactionStats.h"; sourceTree = "<group>"; };
+		F80A26BF17658D0500E902E2 /* DwollaTransactionStats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DwollaTransactionStats.m; path = "Dwolla Balance Checker/Dwolla/DwollaTransactionStats.m"; sourceTree = "<group>"; };
+		F80A26C017658D0500E902E2 /* DwollaUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DwollaUser.h; path = "Dwolla Balance Checker/Dwolla/DwollaUser.h"; sourceTree = "<group>"; };
+		F80A26C117658D0500E902E2 /* DwollaUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DwollaUser.m; path = "Dwolla Balance Checker/Dwolla/DwollaUser.m"; sourceTree = "<group>"; };
+		F80A26C217658D0500E902E2 /* HttpRequestHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpRequestHelper.h; path = "Dwolla Balance Checker/Dwolla/HttpRequestHelper.h"; sourceTree = "<group>"; };
+		F80A26C317658D0500E902E2 /* HttpRequestHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HttpRequestHelper.m; path = "Dwolla Balance Checker/Dwolla/HttpRequestHelper.m"; sourceTree = "<group>"; };
+		F80A26C417658D0500E902E2 /* HttpRequestRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpRequestRepository.h; path = "Dwolla Balance Checker/Dwolla/HttpRequestRepository.h"; sourceTree = "<group>"; };
+		F80A26C517658D0500E902E2 /* HttpRequestRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HttpRequestRepository.m; path = "Dwolla Balance Checker/Dwolla/HttpRequestRepository.m"; sourceTree = "<group>"; };
+		F80A26C617658D0500E902E2 /* IDwollaMessages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IDwollaMessages.h; path = "Dwolla Balance Checker/Dwolla/IDwollaMessages.h"; sourceTree = "<group>"; };
+		F80A26C817658D0500E902E2 /* NSURLConnectionRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSURLConnectionRepository.h; path = "Dwolla Balance Checker/Dwolla/NSURLConnectionRepository.h"; sourceTree = "<group>"; };
+		F80A26C917658D0600E902E2 /* NSURLConnectionRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSURLConnectionRepository.m; path = "Dwolla Balance Checker/Dwolla/NSURLConnectionRepository.m"; sourceTree = "<group>"; };
+		F80A26CA17658D0600E902E2 /* OAuthTokenRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OAuthTokenRepository.h; path = "Dwolla Balance Checker/Dwolla/OAuthTokenRepository.h"; sourceTree = "<group>"; };
+		F80A26CB17658D0600E902E2 /* OAuthTokenRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OAuthTokenRepository.m; path = "Dwolla Balance Checker/Dwolla/OAuthTokenRepository.m"; sourceTree = "<group>"; };
+		F80A26DE176593DC00E902E2 /* NSObject+SBJson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSObject+SBJson.m"; path = "Dwolla Balance Checker/Dwolla/json-framework/NSObject+SBJson.m"; sourceTree = "<group>"; };
+		F80A26DF176593DC00E902E2 /* SBJsonParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SBJsonParser.m; path = "Dwolla Balance Checker/Dwolla/json-framework/SBJsonParser.m"; sourceTree = "<group>"; };
+		F80A26E0176593DD00E902E2 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParser.m; path = "Dwolla Balance Checker/Dwolla/json-framework/SBJsonStreamParser.m"; sourceTree = "<group>"; };
+		F80A26E1176593DE00E902E2 /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParserAccumulator.m; path = "Dwolla Balance Checker/Dwolla/json-framework/SBJsonStreamParserAccumulator.m"; sourceTree = "<group>"; };
+		F80A26E2176593DF00E902E2 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParserAdapter.m; path = "Dwolla Balance Checker/Dwolla/json-framework/SBJsonStreamParserAdapter.m"; sourceTree = "<group>"; };
+		F80A26E3176593DF00E902E2 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParserState.m; path = "Dwolla Balance Checker/Dwolla/json-framework/SBJsonStreamParserState.m"; sourceTree = "<group>"; };
+		F80A26E4176593E000E902E2 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamWriter.m; path = "Dwolla Balance Checker/Dwolla/json-framework/SBJsonStreamWriter.m"; sourceTree = "<group>"; };
+		F80A26E5176593E100E902E2 /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamWriterAccumulator.m; path = "Dwolla Balance Checker/Dwolla/json-framework/SBJsonStreamWriterAccumulator.m"; sourceTree = "<group>"; };
+		F80A26E6176593E100E902E2 /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamWriterState.m; path = "Dwolla Balance Checker/Dwolla/json-framework/SBJsonStreamWriterState.m"; sourceTree = "<group>"; };
+		F80A26E7176593E200E902E2 /* SBJsonTokeniser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SBJsonTokeniser.m; path = "Dwolla Balance Checker/Dwolla/json-framework/SBJsonTokeniser.m"; sourceTree = "<group>"; };
+		F80A26E8176593E300E902E2 /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SBJsonUTF8Stream.m; path = "Dwolla Balance Checker/Dwolla/json-framework/SBJsonUTF8Stream.m"; sourceTree = "<group>"; };
+		F80A26E9176593E400E902E2 /* SBJsonWriter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SBJsonWriter.m; path = "Dwolla Balance Checker/Dwolla/json-framework/SBJsonWriter.m"; sourceTree = "<group>"; };
+		F80A26F61765980400E902E2 /* PreferencesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesView.h; sourceTree = "<group>"; };
+		F80A26F71765980400E902E2 /* PreferencesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesView.m; sourceTree = "<group>"; };
+		F80A26FC1765A1D100E902E2 /* PreferencesWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferencesWindow.xib; sourceTree = "<group>"; };
+		F80A270417669DDC00E902E2 /* PreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesViewController.h; sourceTree = "<group>"; };
+		F80A270517669DDC00E902E2 /* PreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesViewController.m; sourceTree = "<group>"; };
+		F80A27071766D7B300E902E2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F8E7AF3E173C4B6C009C6A96 /* Dwolla Balance Checker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dwolla Balance Checker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8E7AF41173C4B6C009C6A96 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F8E7AF44173C4B6C009C6A96 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F8E7AF45173C4B6C009C6A96 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F8E7AF46173C4B6C009C6A96 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F8E7AF49173C4B6C009C6A96 /* Dwolla Balance Checker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dwolla Balance Checker-Info.plist"; sourceTree = "<group>"; };
+		F8E7AF4B173C4B6C009C6A96 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F8E7AF4D173C4B6C009C6A96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8E7AF4F173C4B6C009C6A96 /* Dwolla Balance Checker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dwolla Balance Checker-Prefix.pch"; sourceTree = "<group>"; };
+		F8E7AF53173C4B6C009C6A96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F8E7AF54173C4B6C009C6A96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F8E7AF57173C4B6C009C6A96 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F8E7AF5F173C4B6D009C6A96 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F8E7AF7E173DB4B6009C6A96 /* CheckBalance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckBalance.h; sourceTree = "<group>"; };
+		F8E7AF7F173DB4B6009C6A96 /* CheckBalance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckBalance.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8E7AF3B173C4B6C009C6A96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80A27081766D7B400E902E2 /* Security.framework in Frameworks */,
+				F8E7AF42173C4B6C009C6A96 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F80A26DA17658D2300E902E2 /* Dwolla */ = {
+			isa = PBXGroup;
+			children = (
+				F80A26B017658D0300E902E2 /* Constants.h */,
+				F80A26B117658D0300E902E2 /* Constants.m */,
+				F80A26B217658D0300E902E2 /* DwollaAPI.h */,
+				F80A26B317658D0300E902E2 /* DwollaAPI.m */,
+				F80A26B417658D0400E902E2 /* DwollaContact.h */,
+				F80A26B517658D0400E902E2 /* DwollaContact.m */,
+				F80A26B617658D0400E902E2 /* DwollaFundingSource.h */,
+				F80A26B717658D0400E902E2 /* DwollaFundingSource.m */,
+				F80A26B817658D0400E902E2 /* DwollaFundingSources.h */,
+				F80A26B917658D0400E902E2 /* DwollaFundingSources.m */,
+				F80A26BA17658D0400E902E2 /* DwollaTransaction.h */,
+				F80A26BB17658D0500E902E2 /* DwollaTransaction.m */,
+				F80A26BC17658D0500E902E2 /* DwollaTransactions.h */,
+				F80A26BD17658D0500E902E2 /* DwollaTransactions.m */,
+				F80A26BE17658D0500E902E2 /* DwollaTransactionStats.h */,
+				F80A26BF17658D0500E902E2 /* DwollaTransactionStats.m */,
+				F80A26C017658D0500E902E2 /* DwollaUser.h */,
+				F80A26C117658D0500E902E2 /* DwollaUser.m */,
+				F80A26C217658D0500E902E2 /* HttpRequestHelper.h */,
+				F80A26C317658D0500E902E2 /* HttpRequestHelper.m */,
+				F80A26C417658D0500E902E2 /* HttpRequestRepository.h */,
+				F80A26C517658D0500E902E2 /* HttpRequestRepository.m */,
+				F80A26C617658D0500E902E2 /* IDwollaMessages.h */,
+				F80A26C817658D0500E902E2 /* NSURLConnectionRepository.h */,
+				F80A26C917658D0600E902E2 /* NSURLConnectionRepository.m */,
+				F80A26CA17658D0600E902E2 /* OAuthTokenRepository.h */,
+				F80A26CB17658D0600E902E2 /* OAuthTokenRepository.m */,
+			);
+			name = Dwolla;
+			sourceTree = "<group>";
+		};
+		F80A26F917659D2A00E902E2 /* SBJson */ = {
+			isa = PBXGroup;
+			children = (
+				F80A26DE176593DC00E902E2 /* NSObject+SBJson.m */,
+				F80A26DF176593DC00E902E2 /* SBJsonParser.m */,
+				F80A26E0176593DD00E902E2 /* SBJsonStreamParser.m */,
+				F80A26E1176593DE00E902E2 /* SBJsonStreamParserAccumulator.m */,
+				F80A26E2176593DF00E902E2 /* SBJsonStreamParserAdapter.m */,
+				F80A26E3176593DF00E902E2 /* SBJsonStreamParserState.m */,
+				F80A26E4176593E000E902E2 /* SBJsonStreamWriter.m */,
+				F80A26E5176593E100E902E2 /* SBJsonStreamWriterAccumulator.m */,
+				F80A26E6176593E100E902E2 /* SBJsonStreamWriterState.m */,
+				F80A26E7176593E200E902E2 /* SBJsonTokeniser.m */,
+				F80A26E8176593E300E902E2 /* SBJsonUTF8Stream.m */,
+				F80A26E9176593E400E902E2 /* SBJsonWriter.m */,
+			);
+			name = SBJson;
+			sourceTree = "<group>";
+		};
+		F8E7AF35173C4B6C009C6A96 = {
+			isa = PBXGroup;
+			children = (
+				F80A27071766D7B300E902E2 /* Security.framework */,
+				F8E7AF47173C4B6C009C6A96 /* Dwolla Balance Checker */,
+				F8E7AF40173C4B6C009C6A96 /* Frameworks */,
+				F8E7AF3F173C4B6C009C6A96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8E7AF3F173C4B6C009C6A96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8E7AF3E173C4B6C009C6A96 /* Dwolla Balance Checker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8E7AF40173C4B6C009C6A96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F80A26F917659D2A00E902E2 /* SBJson */,
+				F80A26DA17658D2300E902E2 /* Dwolla */,
+				F8E7AF41173C4B6C009C6A96 /* Cocoa.framework */,
+				F8E7AF5F173C4B6D009C6A96 /* SenTestingKit.framework */,
+				F8E7AF43173C4B6C009C6A96 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8E7AF43173C4B6C009C6A96 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8E7AF44173C4B6C009C6A96 /* AppKit.framework */,
+				F8E7AF45173C4B6C009C6A96 /* CoreData.framework */,
+				F8E7AF46173C4B6C009C6A96 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F8E7AF47173C4B6C009C6A96 /* Dwolla Balance Checker */ = {
+			isa = PBXGroup;
+			children = (
+				F8E7AF53173C4B6C009C6A96 /* AppDelegate.h */,
+				F8E7AF54173C4B6C009C6A96 /* AppDelegate.m */,
+				F8E7AF56173C4B6C009C6A96 /* MainMenu.xib */,
+				F8E7AF48173C4B6C009C6A96 /* Supporting Files */,
+				F8E7AF7E173DB4B6009C6A96 /* CheckBalance.h */,
+				F8E7AF7F173DB4B6009C6A96 /* CheckBalance.m */,
+				F80A26F61765980400E902E2 /* PreferencesView.h */,
+				F80A26F71765980400E902E2 /* PreferencesView.m */,
+				F80A270417669DDC00E902E2 /* PreferencesViewController.h */,
+				F80A270517669DDC00E902E2 /* PreferencesViewController.m */,
+				F80A26FC1765A1D100E902E2 /* PreferencesWindow.xib */,
+			);
+			path = "Dwolla Balance Checker";
+			sourceTree = "<group>";
+		};
+		F8E7AF48173C4B6C009C6A96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8E7AF49173C4B6C009C6A96 /* Dwolla Balance Checker-Info.plist */,
+				F8E7AF4A173C4B6C009C6A96 /* InfoPlist.strings */,
+				F8E7AF4D173C4B6C009C6A96 /* main.m */,
+				F8E7AF4F173C4B6C009C6A96 /* Dwolla Balance Checker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8E7AF3D173C4B6C009C6A96 /* Dwolla Balance Checker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8E7AF6F173C4B6D009C6A96 /* Build configuration list for PBXNativeTarget "Dwolla Balance Checker" */;
+			buildPhases = (
+				F8E7AF3A173C4B6C009C6A96 /* Sources */,
+				F8E7AF3B173C4B6C009C6A96 /* Frameworks */,
+				F8E7AF3C173C4B6C009C6A96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dwolla Balance Checker";
+			productName = "Dwolla Balance Checker";
+			productReference = F8E7AF3E173C4B6C009C6A96 /* Dwolla Balance Checker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8E7AF36173C4B6C009C6A96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Gordon;
+			};
+			buildConfigurationList = F8E7AF39173C4B6C009C6A96 /* Build configuration list for PBXProject "Dwolla Balance Checker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F8E7AF35173C4B6C009C6A96;
+			productRefGroup = F8E7AF3F173C4B6C009C6A96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8E7AF3D173C4B6C009C6A96 /* Dwolla Balance Checker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8E7AF3C173C4B6C009C6A96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8E7AF4C173C4B6C009C6A96 /* InfoPlist.strings in Resources */,
+				F8E7AF58173C4B6C009C6A96 /* MainMenu.xib in Resources */,
+				F80A26FE1765A1D100E902E2 /* PreferencesWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8E7AF3A173C4B6C009C6A96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80A26EA176593E400E902E2 /* NSObject+SBJson.m in Sources */,
+				F80A26EB176593E400E902E2 /* SBJsonParser.m in Sources */,
+				F80A26EC176593E400E902E2 /* SBJsonStreamParser.m in Sources */,
+				F80A26ED176593E400E902E2 /* SBJsonStreamParserAccumulator.m in Sources */,
+				F80A26EE176593E400E902E2 /* SBJsonStreamParserAdapter.m in Sources */,
+				F80A26EF176593E400E902E2 /* SBJsonStreamParserState.m in Sources */,
+				F80A26F0176593E400E902E2 /* SBJsonStreamWriter.m in Sources */,
+				F80A26F1176593E400E902E2 /* SBJsonStreamWriterAccumulator.m in Sources */,
+				F80A26F2176593E400E902E2 /* SBJsonStreamWriterState.m in Sources */,
+				F80A26F3176593E400E902E2 /* SBJsonTokeniser.m in Sources */,
+				F80A26F4176593E400E902E2 /* SBJsonUTF8Stream.m in Sources */,
+				F80A26F5176593E400E902E2 /* SBJsonWriter.m in Sources */,
+				F8E7AF4E173C4B6C009C6A96 /* main.m in Sources */,
+				F8E7AF55173C4B6C009C6A96 /* AppDelegate.m in Sources */,
+				F8E7AF80173DB4B6009C6A96 /* CheckBalance.m in Sources */,
+				F80A26CC17658D0600E902E2 /* Constants.m in Sources */,
+				F80A26CD17658D0600E902E2 /* DwollaAPI.m in Sources */,
+				F80A26CE17658D0600E902E2 /* DwollaContact.m in Sources */,
+				F80A26CF17658D0600E902E2 /* DwollaFundingSource.m in Sources */,
+				F80A26D017658D0600E902E2 /* DwollaFundingSources.m in Sources */,
+				F80A26D117658D0600E902E2 /* DwollaTransaction.m in Sources */,
+				F80A26D217658D0600E902E2 /* DwollaTransactions.m in Sources */,
+				F80A26D317658D0600E902E2 /* DwollaTransactionStats.m in Sources */,
+				F80A26D417658D0600E902E2 /* DwollaUser.m in Sources */,
+				F80A26D517658D0600E902E2 /* HttpRequestHelper.m in Sources */,
+				F80A26D617658D0600E902E2 /* HttpRequestRepository.m in Sources */,
+				F80A26D817658D0600E902E2 /* NSURLConnectionRepository.m in Sources */,
+				F80A26D917658D0600E902E2 /* OAuthTokenRepository.m in Sources */,
+				F80A26F81765980500E902E2 /* PreferencesView.m in Sources */,
+				F80A270617669DDC00E902E2 /* PreferencesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F8E7AF4A173C4B6C009C6A96 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8E7AF4B173C4B6C009C6A96 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F8E7AF56173C4B6C009C6A96 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8E7AF57173C4B6C009C6A96 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8E7AF6D173C4B6D009C6A96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/dwolla-ios/DwollaOAuthLib/**";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F8E7AF6E173C4B6D009C6A96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/dwolla-ios/DwollaOAuthLib/**";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F8E7AF70173C4B6D009C6A96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dwolla Balance Checker/Dwolla Balance Checker-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/dwolla-ios/DwollaOAuthLib/**";
+				INFOPLIST_FILE = "Dwolla Balance Checker/Dwolla Balance Checker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F8E7AF71173C4B6D009C6A96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dwolla Balance Checker/Dwolla Balance Checker-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/dwolla-ios/DwollaOAuthLib/**";
+				INFOPLIST_FILE = "Dwolla Balance Checker/Dwolla Balance Checker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8E7AF39173C4B6C009C6A96 /* Build configuration list for PBXProject "Dwolla Balance Checker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8E7AF6D173C4B6D009C6A96 /* Debug */,
+				F8E7AF6E173C4B6D009C6A96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8E7AF6F173C4B6D009C6A96 /* Build configuration list for PBXNativeTarget "Dwolla Balance Checker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8E7AF70173C4B6D009C6A96 /* Debug */,
+				F8E7AF71173C4B6D009C6A96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8E7AF36173C4B6C009C6A96 /* Project object */;
+}
