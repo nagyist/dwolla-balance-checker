@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "json-framework/SBJson.h"
+#import "SBJson.h"
 #import "HttpRequestHelper.h"
 #import "NSURLConnectionRepository.h"
 

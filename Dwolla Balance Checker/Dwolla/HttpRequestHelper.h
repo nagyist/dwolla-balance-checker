@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "json-framework/SBJson.h"
+#import "SBJson.h"
 
 @interface HttpRequestHelper : NSObject
 

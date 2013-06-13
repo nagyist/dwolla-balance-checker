@@ -9,7 +9,7 @@
 //  token for most of the methods
 
 #import <Foundation/Foundation.h>
-#import "json-framework/SBJson.h"
+#import "SBJson.h"
 #import "DwollaUser.h"
 #import "DwollaTransactions.h"
 #import "DwollaFundingSources.h"
