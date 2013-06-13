@@ -8,10 +8,12 @@
 
 #import "PreferencesView.h"
 
+#define TOKEN_FIELD_TAG_NUM 1
+
 @implementation PreferencesView
 
 - (void) awakeFromNib {
-    NSTextField *token_input = [self viewWithTag:1];
+    NSTextField *token_input = [self viewWithTag:TOKEN_FIELD_TAG_NUM];
     NSString *saved_token = [CheckBalance getToken];
     if (saved_token != nil) {
         [token_input setStringValue:saved_token];
