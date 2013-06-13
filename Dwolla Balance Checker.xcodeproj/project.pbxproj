@@ -35,7 +35,6 @@
 		F80A26F81765980500E902E2 /* PreferencesView.m in Sources */ = {isa = PBXBuildFile; fileRef = F80A26F71765980400E902E2 /* PreferencesView.m */; };
 		F80A26FE1765A1D100E902E2 /* PreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F80A26FC1765A1D100E902E2 /* PreferencesWindow.xib */; };
 		F80A270617669DDC00E902E2 /* PreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F80A270517669DDC00E902E2 /* PreferencesViewController.m */; };
-		F80A27081766D7B400E902E2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F80A27071766D7B300E902E2 /* Security.framework */; };
 		F8E7AF42173C4B6C009C6A96 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8E7AF41173C4B6C009C6A96 /* Cocoa.framework */; };
 		F8E7AF4C173C4B6C009C6A96 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8E7AF4A173C4B6C009C6A96 /* InfoPlist.strings */; };
 		F8E7AF4E173C4B6C009C6A96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E7AF4D173C4B6C009C6A96 /* main.m */; };
@@ -89,7 +88,6 @@
 		F80A26FC1765A1D100E902E2 /* PreferencesWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferencesWindow.xib; sourceTree = "<group>"; };
 		F80A270417669DDC00E902E2 /* PreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesViewController.h; sourceTree = "<group>"; };
 		F80A270517669DDC00E902E2 /* PreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesViewController.m; sourceTree = "<group>"; };
-		F80A27071766D7B300E902E2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		F8E7AF3E173C4B6C009C6A96 /* Dwolla Balance Checker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dwolla Balance Checker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8E7AF41173C4B6C009C6A96 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		F8E7AF44173C4B6C009C6A96 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -102,7 +100,6 @@
 		F8E7AF53173C4B6C009C6A96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F8E7AF54173C4B6C009C6A96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F8E7AF57173C4B6C009C6A96 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		F8E7AF5F173C4B6D009C6A96 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		F8E7AF7E173DB4B6009C6A96 /* CheckBalance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckBalance.h; sourceTree = "<group>"; };
 		F8E7AF7F173DB4B6009C6A96 /* CheckBalance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckBalance.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,7 +109,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F80A27081766D7B400E902E2 /* Security.framework in Frameworks */,
 				F8E7AF42173C4B6C009C6A96 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -176,7 +172,6 @@
 		F8E7AF35173C4B6C009C6A96 = {
 			isa = PBXGroup;
 			children = (
-				F80A27071766D7B300E902E2 /* Security.framework */,
 				F8E7AF47173C4B6C009C6A96 /* Dwolla Balance Checker */,
 				F8E7AF40173C4B6C009C6A96 /* Frameworks */,
 				F8E7AF3F173C4B6C009C6A96 /* Products */,
@@ -197,7 +192,6 @@
 				F80A26F917659D2A00E902E2 /* SBJson */,
 				F80A26DA17658D2300E902E2 /* Dwolla */,
 				F8E7AF41173C4B6C009C6A96 /* Cocoa.framework */,
-				F8E7AF5F173C4B6D009C6A96 /* SenTestingKit.framework */,
 				F8E7AF43173C4B6C009C6A96 /* Other Frameworks */,
 			);
 			name = Frameworks;
