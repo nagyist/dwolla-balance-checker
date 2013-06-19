@@ -17,7 +17,7 @@
     [settings synchronize];
 }
 
-// get previously saved OAuth Token:
+// get previously saved OAuth Token.  Returns nil if not found.:
 + (NSString *)getToken {
     NSUserDefaults *settings = [NSUserDefaults standardUserDefaults];
     return [settings objectForKey:@"token"];
@@ -41,7 +41,7 @@
         
     }
     
-    else return @"No Token Set";
+    else return @"No Token";
 }
 
 @end
