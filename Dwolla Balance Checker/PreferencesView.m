@@ -12,6 +12,7 @@
 
 @implementation PreferencesView
 
+// When the Preferences window is opened and this view is displayed, retrieve the previously stored OAuth token and display it in the text input field.
 - (void) awakeFromNib {
     NSTextField *token_input = [self viewWithTag:TOKEN_FIELD_TAG_NUM];
     NSString *saved_token = [CheckBalance getToken];

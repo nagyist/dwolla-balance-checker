@@ -9,9 +9,9 @@
 #import <Cocoa/Cocoa.h>
 #import "Dwolla/DwollaAPI.h"
 
-@interface CheckBalance : NSObject {
-    NSString *appName;
-}
+
+// Encapsulates methods used to check balance and used in token storage
+@interface CheckBalance : NSObject
 
 + (NSString *)fetchBalance;
 + (NSString *)getToken;

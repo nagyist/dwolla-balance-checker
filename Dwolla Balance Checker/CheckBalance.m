@@ -10,17 +10,20 @@
 
 @implementation CheckBalance
 
+// set OAuth Token as a key in NSUserDefaults (warning: this is not the safest way to go about storing credentials!):
 + (void)setToken:(NSString *)token {
     NSUserDefaults *settings = [NSUserDefaults standardUserDefaults];
     [settings setObject:token forKey:@"token"];
     [settings synchronize];
 }
 
+// get previously saved OAuth Token:
 + (NSString *)getToken {
     NSUserDefaults *settings = [NSUserDefaults standardUserDefaults];
     return [settings objectForKey:@"token"];
 }
 
+// returns user balance as string using previously saved OAuth token.  uses DwollaAPI library.  returns error message if failure
 + (NSString *)fetchBalance {
     DwollaAPI *client = [[DwollaAPI alloc] init];
     NSString *accesstoken = [self getToken];
