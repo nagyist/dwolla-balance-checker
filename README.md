@@ -11,7 +11,7 @@ Open up the XCode project file "Dwolla Balance Checker.xcodeproj" with XCode 4. 
 Usage
 =====
 
-Initially, you'll see "No token set" in the status bar.  Click on it and select Preferences from the drop down menu that appears.  From there, you'll need to set your Dwolla account's OAuth token.
+Initially, you'll see "No Token" in the status bar.  Click on it and select Preferences from the drop down menu that appears.  From there, you'll need to set your Dwolla account's OAuth token.
 
 You can generate an OAuth token here: https://developers.dwolla.com/dev/token
 
