@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Dwolla Balance Checker Final.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>Dwolla Balance Checker.xcscheme</key>
 		<dict>
 			<key>orderHint</key>

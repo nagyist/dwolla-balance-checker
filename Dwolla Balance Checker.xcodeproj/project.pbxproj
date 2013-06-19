@@ -41,6 +41,7 @@
 		F8E7AF55173C4B6C009C6A96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E7AF54173C4B6C009C6A96 /* AppDelegate.m */; };
 		F8E7AF58173C4B6C009C6A96 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8E7AF56173C4B6C009C6A96 /* MainMenu.xib */; };
 		F8E7AF80173DB4B6009C6A96 /* CheckBalance.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E7AF7F173DB4B6009C6A96 /* CheckBalance.m */; };
+		F8EE83221771FC7A002839B8 /* 6733173879_61622842f9_z.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8EE83211771FC7A002839B8 /* 6733173879_61622842f9_z.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -115,6 +116,7 @@
 		F8E7AF57173C4B6C009C6A96 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		F8E7AF7E173DB4B6009C6A96 /* CheckBalance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckBalance.h; sourceTree = "<group>"; };
 		F8E7AF7F173DB4B6009C6A96 /* CheckBalance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckBalance.m; sourceTree = "<group>"; };
+		F8EE83211771FC7A002839B8 /* 6733173879_61622842f9_z.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6733173879_61622842f9_z.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +200,7 @@
 		F8E7AF35173C4B6C009C6A96 = {
 			isa = PBXGroup;
 			children = (
+				F8EE83211771FC7A002839B8 /* 6733173879_61622842f9_z.jpg */,
 				F8E7AF47173C4B6C009C6A96 /* Dwolla Balance Checker */,
 				F8E7AF40173C4B6C009C6A96 /* Frameworks */,
 				F8E7AF3F173C4B6C009C6A96 /* Products */,
@@ -316,6 +319,7 @@
 				F8E7AF4C173C4B6C009C6A96 /* InfoPlist.strings in Resources */,
 				F8E7AF58173C4B6C009C6A96 /* MainMenu.xib in Resources */,
 				F80A26FE1765A1D100E902E2 /* PreferencesWindow.xib in Resources */,
+				F8EE83221771FC7A002839B8 /* 6733173879_61622842f9_z.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,7 +389,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = NO;
@@ -411,7 +415,7 @@
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/dwolla-ios/DwollaOAuthLib/**";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = "";
 			};
 			name = Debug;
 		};
@@ -419,7 +423,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = NO;
@@ -438,7 +442,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/dwolla-ios/DwollaOAuthLib/**";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				SDKROOT = macosx;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = "";
 			};
 			name = Release;
 		};
