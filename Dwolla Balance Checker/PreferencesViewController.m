@@ -32,6 +32,7 @@
     NSTextField *token_input = [self.view viewWithTag:TOKEN_FIELD_TAG_NUM];
     NSString *token = [token_input stringValue];
     [CheckBalance setToken:token];
+    [self.view.window close];
 }
 
 @end
