@@ -23,6 +23,7 @@
 		F80A26F81765980500E902E2 /* PreferencesView.m in Sources */ = {isa = PBXBuildFile; fileRef = F80A26F71765980400E902E2 /* PreferencesView.m */; };
 		F80A26FE1765A1D100E902E2 /* PreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F80A26FC1765A1D100E902E2 /* PreferencesWindow.xib */; };
 		F80A270617669DDC00E902E2 /* PreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F80A270517669DDC00E902E2 /* PreferencesViewController.m */; };
+		F83614F01794617D002C5E79 /* dwolla.iconset in Resources */ = {isa = PBXBuildFile; fileRef = F83614EF1794617D002C5E79 /* dwolla.iconset */; };
 		F8D4F85B176A4EA4009DE92F /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D4F842176A4EA4009DE92F /* SBJsonWriter.m */; };
 		F8D4F85C176A4EA4009DE92F /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D4F843176A4EA4009DE92F /* SBJsonUTF8Stream.m */; };
 		F8D4F85D176A4EA4009DE92F /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D4F844176A4EA4009DE92F /* SBJsonTokeniser.m */; };
@@ -77,6 +78,7 @@
 		F80A26FC1765A1D100E902E2 /* PreferencesWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferencesWindow.xib; sourceTree = "<group>"; };
 		F80A270417669DDC00E902E2 /* PreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesViewController.h; sourceTree = "<group>"; };
 		F80A270517669DDC00E902E2 /* PreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesViewController.m; sourceTree = "<group>"; };
+		F83614EF1794617D002C5E79 /* dwolla.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; name = dwolla.iconset; path = "Dwolla Balance Checker/dwolla.iconset"; sourceTree = "<group>"; };
 		F8D4F842176A4EA4009DE92F /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonWriter.m; path = "Dwolla Balance Checker/Dwolla/SBJson/SBJsonWriter.m"; sourceTree = "<group>"; };
 		F8D4F843176A4EA4009DE92F /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonUTF8Stream.m; path = "Dwolla Balance Checker/Dwolla/SBJson/SBJsonUTF8Stream.m"; sourceTree = "<group>"; };
 		F8D4F844176A4EA4009DE92F /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonTokeniser.m; path = "Dwolla Balance Checker/Dwolla/SBJson/SBJsonTokeniser.m"; sourceTree = "<group>"; };
@@ -200,6 +202,7 @@
 		F8E7AF35173C4B6C009C6A96 = {
 			isa = PBXGroup;
 			children = (
+				F83614EF1794617D002C5E79 /* dwolla.iconset */,
 				F8EE83211771FC7A002839B8 /* 6733173879_61622842f9_z.jpg */,
 				F8E7AF47173C4B6C009C6A96 /* Dwolla Balance Checker */,
 				F8E7AF40173C4B6C009C6A96 /* Frameworks */,
@@ -320,6 +323,7 @@
 				F8E7AF58173C4B6C009C6A96 /* MainMenu.xib in Resources */,
 				F80A26FE1765A1D100E902E2 /* PreferencesWindow.xib in Resources */,
 				F8EE83221771FC7A002839B8 /* 6733173879_61622842f9_z.jpg in Resources */,
+				F83614F01794617D002C5E79 /* dwolla.iconset in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
